@@ -1,0 +1,99 @@
+p.cont{
+    font-size: 22px;
+    padding:0 6vw 0 2.3vw;
+    text-indent: 5vw;
+    line-height: 1.6;
+    font-family: "Yu Gothic Medium";
+}
+h1{
+    padding:0 2vw;
+    font-family: 'Aclonica';
+    color:powderblue;
+}
+h2{
+    padding:0 2vw;
+    font-family: 'Aclonica';
+    color:powderblue;
+}
+.no{
+    float:left;
+    margin-left: 15%;
+}
+.no1{
+    float:right;
+    margin-right: 25%;
+}
+.wa{
+    margin-left: 31%;
+}
+.email{
+    margin-left: 28%;
+}
+.reach{
+    width:50%;
+    display: inline-block;
+}
+.mreach{
+    width:50%;
+    display: inline-block;
+    float:right;
+}
+.mreach a img{
+    border-radius: 5px;
+    width: 60%;
+    height: 250px;
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .3);
+}
+#mimg:hover{
+    opacity: .7;
+}
+@media only screen and (max-width:1240px){
+    .wa,.no,.no1{
+        float: none;
+        margin-left: 25%;
+    }
+}
+@media only screen and (max-width:1000px){
+    p.cont{
+        font-size: 19px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    .reach{
+        width: 100%;
+        display: block;
+    }
+    .mreach{
+        width:70%;
+        display: block;
+        float:none;
+    }
+    .mreach a img{
+        width:100%
+    }
+}
+@media only screen and (max-width:550px){
+    p.cont{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 19px;
+    }
+    .email{
+        margin-left: 10%;
+    }
+    .reach{
+        width: 100%;
+        display: block;
+    }
+    .mreach{
+        width: 70%;
+        display: block;
+        float:none;
+    }
+    .mreach a img{
+        width:100%
+    }
+
+}

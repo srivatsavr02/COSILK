@@ -1,0 +1,54 @@
+p.about{
+    font-size: 20px;
+    padding:0 2.3vw;
+    text-indent: 5vw;
+    line-height: 1.6;
+}
+#prof{
+    margin-left: 20%;
+    height:15vw;
+    width:60%;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .3);
+}
+#do{
+    font-size: 20px;
+    line-height:1.6;
+    display: block;
+    padding-left: 2.3vw;
+}
+#do li{
+    margin-left: 2.3vw;
+}
+#do li:first-child{
+    margin-left: 0;
+}
+h1{
+    padding:0 2vw;
+    font-family: 'Aclonica';
+    color:powderblue;
+}
+@media only screen and (max-width:1000px){
+    p.about,#do{
+        font-size: 17px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    #prof{
+        height: 17vw;
+    }
+}
+@media only screen and (max-width:550px){
+    p.about,#do{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 19px;
+    }
+    #prof{
+        height: 19vw;
+        width: 70%;
+    }
+
+}

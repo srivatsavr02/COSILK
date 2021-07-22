@@ -1,0 +1,156 @@
+p.home{
+    font-size: 20px;
+    padding:0 2.3vw;
+    text-indent: 5vw;
+    line-height: 1.6;
+}
+#qu{
+    font-size: 25px
+}
+.yd{
+    float:left;
+    width:50%;
+}
+.gd{
+    float:right;
+    width:50%;
+}
+#yar{
+    font-size: 20px;
+    line-height:1.6;
+}
+#yar li{
+    margin-left: 2.3vw;
+}
+h1,h2{
+    padding:0 2vw;
+    font-family: 'Aclonica';
+    color:powderblue;
+    font-size: 25px;
+}
+span{
+    cursor: pointer;
+}
+span:hover{
+    color: darkorange;
+}
+#hmin{
+    float:left;width: 50%;
+}
+#hmin1{
+    float:right;
+    width:50%;
+}
+#ima{
+    float: right;
+    display: none;
+    width:30%;
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .3);
+    margin-right:10%;
+    border-radius: 5px;
+    line-height: 1;
+}
+#ima1{
+    float:right;
+    display: none;
+    width:30%;
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .3);
+    margin-right:10%;
+    border-radius: 5px;
+    line-height: 1;
+}
+#ima2{
+    float:right;
+    display: none;
+    width:30%;
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .3);
+    margin-right:10%;
+    border-radius: 5px;
+    line-height: 1;
+}
+#imag,#imag1,#imag2,#imag3,#imag4,#imag5,#imag6{
+    float:right;
+    display: none;
+    width:40%;
+    box-shadow: 0 3px 6px 3px rgba(0, 0, 0, .3);
+    margin-right:10%;
+    border-radius: 5px;
+    line-height: 1;
+}
+#ima img,#ima1 img,#ima2 img{
+    height: 200px;
+}
+#imag img,#imag1 img,#imag2 img,#imag3 img,#imag4 img,#imag5 img,#imag6 img{
+    height: 200px;
+}
+@media only screen and (max-width:1000px){
+    p.home,#yar{
+        font-size: 17px;
+    }
+    h1,h2{
+        font-size: 22px;
+    }
+    #qu{
+        font-size: 22px;
+    }
+    .yd,.gd{
+        float: none;
+        width: 100%;
+    }
+    #hmin,#hmin1{
+        float:none;
+        width: 100%;
+    }
+    #ima,#ima1,#ima2{
+        width: 30%;
+    }
+    #imag,#imag1,#imag2,#imag3,#imag4,#imag5,#imag6{
+        width: 30%;
+    }
+    #ima img,#ima1 img,#ima2 img{
+        height:120px;
+    }
+    #imag img,#imag1 img,#imag2 img,#imag3 img,#imag4 img,#imag5 img,#imag6 img{
+        height:150px;
+    }
+}
+@media only screen and (max-width:550px){
+    p.home,#yar{
+        font-size: 14px;
+    }
+    h1,h2{
+        font-size: 19px;
+    }
+    #ec{
+        font-size: 13px;
+    }
+    #qu{
+        font-size: 13px;
+    }
+    .yd,.gd{
+        float: none;
+        width: 100%;
+    }
+    #hmin,#hmin1{
+        float:none;
+        width: 97%;
+    }
+    #hmin .home,#hmin1 .home{
+        font-size: 10px;
+    }
+    #ima,#ima1,#ima2{
+        font-size: 12px;
+        margin-right: 5%;
+    }
+    #imag,#imag1,#imag2,#imag3,#imag4,#imag5,#imag6{
+        font-size: 12px;
+        margin-right: 5%;
+        width: 45%;
+    }
+    #ima img,#ima1 img,#ima2 img{
+        height:75px;
+    }
+    #imag img,#imag1 img,#imag2 img,#imag3 img,#imag4 img,#imag5 img,#imag6 img{
+        height:100px;
+    }
+}

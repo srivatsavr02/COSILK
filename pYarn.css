@@ -1,0 +1,84 @@
+p.yrn,#prop{
+    font-size: 20px;
+    padding:0 2.3vw;
+    text-indent: 5vw;
+    line-height: 1.6;
+    font-family: Constantia;
+}
+h1{
+    padding:0 2vw;
+    font-family: 'Aclonica';
+    color:powderblue;
+}
+table{
+    border:1px solid gainsboro;
+    float:right;
+    width:40%;
+    margin-right: 5%;
+}
+#imgdiv{
+    display: inline-block;
+    margin:2% 0 0 1%;
+    width: 53%;
+}
+#bm1,#bm2,#bm3{
+    text-decoration: none;
+}
+#bm1:hover,#bm2:hover,#bm3:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+tr{
+    font-size: 20px;
+}
+td b{
+    color: burlywood;
+}
+td{
+    padding:1.5vw 2.3vw;
+    border-bottom:1px solid gainsboro;
+}
+td:first-child{
+    border-right: 1px solid gainsboro;
+}
+tr:last-child td{
+    border-bottom: none;
+}
+@media only screen and (max-width:1000px){
+    p.yrn,#prop{
+        font-size: 17px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    tr{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:550px){
+    p.yrn,#prop{
+        font-size: 14px;
+    }
+    table{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-top: 5%;
+    }
+    h1{
+        font-size: 19px;
+    }
+    #ec{
+        font-size: 13px;
+    }
+    tr{
+        font-size: 14px;
+    }
+    #imgdiv{
+        margin: auto;
+        display: block;
+        width: 70%;
+    }
+
+}
